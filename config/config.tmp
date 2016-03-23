@@ -1,2 +1,4 @@
 qpx_express:
-    project_key : xxxx
+    url         : https://www.googleapis.com/qpxExpress/v1/trips/search
+    headers     : {'content-type': 'application/json'}
+    project_key : API_KEY
